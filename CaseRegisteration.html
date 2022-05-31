@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Case Registeration</title>
+</head>
+<body>
+    <center>
+        <form method ="post" action="MyServlet">
+    <h1>Case Registeration</h1>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <td>
+                Enter Case Name
+            </td>
+            <td>
+                 <input type="text" name = "add_case_name" placeholder="e.g Zahid Robbery" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter Case Description
+            </td>
+            <td>
+                 <input type="text" name = "add_Case_Description" placeholder="e.g the murder occured in the ....." >
+            </td>
+        </tr>
+        <tr> 
+            <td>
+                Enter Date of issue
+            </td>
+            <td>
+                <input type="datetime-local" name="add_issue_Date">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter Address
+            </td>
+            <td>
+                 <input type="text" name = "add_address" placeholder="e.g 123 Main Street, New York, NY 10030" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter Case type
+            </td>
+            <td>
+                 murder<input type="radio" name = "add_case_Type" value = "murder">
+                 <br>
+                 robbery<input type="radio" name = "add_case_Type" value = "robbery">
+                 <br>
+                 rape<input type="radio" name = "add_case_Type" value = "rape">
+                 <br>
+                 Motor Vehicle Theft<input type="radio" name = "add_case_Type" value = "Motor Vehicle Theft">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter Email Address
+            </td>
+            <td>
+                 <input type="text" name = "add_email_Address" placeholder="e.g hamza@gmail.com" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type = "submit" name = "s" value = "back">
+            </td>
+        
+        <br><br><br>
+   
+            <td>
+                <input type = "submit" name = "s" value = "ADD">
+            </td>
+        </tr>
+        
+    </table>
+    </form>
+    </center>
+</body>
+</html>
